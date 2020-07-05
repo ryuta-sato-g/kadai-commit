@@ -2,4 +2,8 @@ require 'sinatra'
 
 get '/' do
   erb :index
-en
+end
+
+post "/" do
+    erb :index
+end
